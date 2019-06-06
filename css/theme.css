@@ -857,7 +857,7 @@ img {
     border-radius: 0;
     border-bottom: 2px solid #ddd;
     padding: 10px 0;
-    color:
+    /* color: */
 }
 .btn-play {
     position: relative;
@@ -3906,12 +3906,12 @@ nav.navbar.nav-small {
         border-left: 1px solid rgba(255,255,255,0.06);
     }
     /*--- Animation ---*/
-    nav.navbar.nav-up {
+    /* nav.navbar.nav-up {
         transform: translateY(-69px);
     }
     nav.navbar.nav-down {
         transform: translateY(0);
-    }
+    } */
 }
 /* Header Collapsed */
 @media (max-width: 991px) {
