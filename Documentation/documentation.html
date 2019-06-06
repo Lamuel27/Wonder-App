@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wander Multipurpose HTML Template</title>
+        <link rel="icon" href="css/favicon.png" type="image/png">
+        <link href="assets/docs.css" rel="stylesheet" type="text/css" media="all">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300%7CRaleway:400,200,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <!--Start Header-->
+        <header class="navbar navbar-default dark wide">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <div class="container">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar top-bar"></span>
+                            <span class="icon-bar middle-bar"></span>
+                            <span class="icon-bar bottom-bar"></span>
+                        </button>
+                        <a class="navbar-brand scroll-btn" href="#installation"><img src="assets/logo.png" alt="Vossen"></a>
+                    </div>
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="container">
+                        <ul class="nav navbar-nav menu-right">
+
+                            <li class="dropdown"><a href="http://themeforest.net/item/wunderkind-one-page-parallax-theme/7601990?ref=VossenDesign" class="dropdown-toggle">Discover</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="https://themeforest.net/item/wander-the-multipurpose-template/15765985">Wander</a></li>
+                                    <li><a href="https://themeforest.net/item/purefive-multipurpose-html5-template/14859663">Purefive</a></li>
+                                    <li><a href="http://themeforest.net/item/vossen-responsive-parallax-multipurpose-template/10240020?ref=VossenDesign">Vossen</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#installation" class="scroll-btn">Top</a></li>
+
+                        </ul>
+                    </div>
+                </div><!--/.nav-collapse -->
+
+            </div>
+        </header>
+        <!--End Header-->
+
+        <div class="site-wrapper pb100">
+
+            <!-- Begin Body -->
+            <div class="container">
+                <div class="row">
+
+                        <!-- Side Menu -->
+                        <div class="col-md-2 side-menu hidden-sm hidden-xs" id="leftCol" style="z-index: 99;">
+                            <ul class="nav nav-stacked" id="sidebar">
+                                <li><a href="#installation" class="scroll-btn">Installation</a></li>
+                                <li><a href="#headers" class="scroll-btn">Header Styles</a></li>
+                                <li><a href="#grid" class="scroll-btn">Grid</a></li>
+                                <li><a href="#sliders" class="scroll-btn">Sliders</a></li>
+                                <li><a href="#backgrounds" class="scroll-btn">Backgrounds</a></li>
+                                <li><a href="#icons" class="scroll-btn">Icon Fonts</a></li>
+                                <li><a href="#portfolio" class="scroll-btn">Portfolio</a></li>
+                                <li><a href="#colors" class="scroll-btn">Color Scheme</a></li>
+                                <li><a href="#fonts" class="scroll-btn">Changing Fonts</a></li>
+                                <li><a href="#google-map" class="scroll-btn">Map</a></li>
+                                <li><a href="#mailchimp" class="scroll-btn">Mailchimp</a></li>
+                                <li><a href="#contact-form" class="scroll-btn">Contact Form</a></li>
+                                <li><a href="#tw-feed" class="scroll-btn">Twitter Feed</a></li>
+                                <li><a href="#images" class="scroll-btn">Images</a></li>
+                                <li><a href="#changelog" class="scroll-btn">Changelog</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-md-10 content-wrapper">
+
+                            <!-- Installation -->
+                            <div class="col-lg-12 doc-box" id="installation">
+                                <h3>Installation</h3>
+                                <div class="doc-box-text">
+                                    <p>Follow the steps below to get you started:</p>
+                                    <ul class="list pl10">
+                                        <li><span>1.</span> Open the HTML folder to find all the template files.</li>
+                                        <li><span>2.</span> Start adding your content and customize html files.</li>
+                                        <li class="pb10"><span>3.</span> Upload these files to your Web Server using FTP program such as a Filezilla.</li>
+                                        <span class="pl40">Make sure you upload the required files & folders listed below:</span>
+                                            <ul class="pl40 pb10 pt10">
+                                                <li><code>HTML/css</code> Stylesheet folder</li>
+                                                <li><code>HTML/fonts</code> Fonts folder</li>
+                                                <li><code>HTML/img</code> Images folder</li>
+                                                <li><code>HTML/js</code> Scripts folder</li>
+                                                <li><code>HTML/php</code> PHP Functions folder</li>
+                                                <li><code>HTML/index.html</code> Homepage</li>
+                                            </ul>
+                                        </li>
+                                        <span class="pl40">The other files can be used according to your preferences.</span>
+                                        <li class="pt10"><i class="ion-android-checkmark-circle mr10"></i> You now have up and running your new amazing website.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Header Styles -->
+                            <div class="col-lg-12 doc-box" id="headers">
+                                <h3>Header Styles</h3>
+                                <div class="doc-box-text">
+                                    <p>WunderApp includes three navigation bar styles and two scrolling animations. <br>
+                                        Control them by editing data attributes in nav tag:</p>
+
+                                    <pre>
+    &lt;nav class="navbar nav-down" data-fullwidth="true" data-menu-style="<span class="highlight">transparent</span>" data-animation="<span class="highlight">shrink</span>"</span>></pre>
+
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            <tr>
+										      <td><code>data-menu-style="transparent"</code></td>
+										      <td>Transparent nav bar, best for dark hero backgrounds</td>
+									        </tr>
+                                            <tr>
+										      <td><code>data-menu-style="light"</code></td>
+										      <td>White nav bar with dark grey menu</td>
+									        </tr>
+                                            <tr>
+										      <td><code>data-menu-style="dark"</code></td>
+										      <td>Dark nav bar with light menu links</td>
+									        </tr>
+                                            <tr>
+										      <td><code>data-animation="shrink"</code></td>
+										      <td>Fixed header with shrinking animation on scroll</td>
+									        </tr>
+                                            <tr>
+										      <td><code>data-animation="hiding"</code></td>
+										      <td>Mobile like header which appears on scroll up</td>
+									        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Grid -->
+                            <div class="col-lg-12 doc-box" id="grid">
+                                <h3>Grid</h3>
+                                <div class="doc-box-text mb20">
+                                    <p>Based on latest Bootstrap and uses the 12 column grid system for the underlying structure of each section. Each use of the grid should be wrapped in both a container and row element.</p>
+                                    <div class="show-grid">
+                                        <div class="col-md-2">.col-md-2</div>
+                                        <div class="col-md-2">.col-md-2</div>
+                                        <div class="col-md-2">.col-md-2</div>
+                                        <div class="col-md-2">.col-md-2</div>
+                                        <div class="col-md-2">.col-md-2</div>
+                                        <div class="col-md-2">.col-md-2</div>
+                                    </div>
+                                    <div class="show-grid">
+                                        <div class="col-md-3">.col-md-3</div>
+                                        <div class="col-md-3">.col-md-3</div>
+                                        <div class="col-md-3">.col-md-3</div>
+                                        <div class="col-md-3">.col-md-3</div>
+                                    </div>
+                                    <div class="show-grid">
+                                        <div class="col-md-4">.col-md-4</div>
+                                        <div class="col-md-4">.col-md-4</div>
+                                        <div class="col-md-4">.col-md-4</div>
+                                    </div>
+                                    <div class="show-grid">
+                                        <div class="col-md-5">.col-md-5</div>
+                                        <div class="col-md-5">.col-md-5</div>
+                                        <div class="col-md-2">.col-md-2</div>
+                                    </div>
+                                    <div class="show-grid">
+                                        <div class="col-md-6">.col-md-6</div>
+                                        <div class="col-md-6">.col-md-6</div>
+                                    </div>
+                                    <div class="show-grid">
+                                        <div class="col-md-12">.col-md-12</div>
+                                    </div>
+                                </div>
+                                <p class="lh2 pl20">For a more detailed explanation of the Bootstrap grid - see the Bootstrap documentation <a href="http://getbootstrap.com/css/#grid">Bootstrap Grid</a></p>
+                            </div>
+
+                            <!-- Spacing -->
+                            <div class="col-lg-12 doc-box" id="spacing">
+                                <h3>Spacing</h3>
+                                <div class="doc-box-text">
+                                    <p>WunderApp uses helper classes to space elements on the page using margin and padding. This makes it easier to create your own elements in HTML without need for extra CSS to arrange them appropriately.</p>
+                                    <p>Example: You have a heading that you'd like to push 100px away from the subsequent content by adding margin to the bottom. You can use spacing classes to help:</p>
+
+                                    <p><code>&lt;h1 class="mb100"&gt;I'm a heading&lt;/h1&gt;</code></p>
+                                    <p>Spacing works on multiples of 10. This means you can use classes as such: <code>mb10, mb20, mb30, mb40, mb50</code> and so on up to <code>mb100.</code></p>
+                                    <ul class="list">
+                                        <li>'<code>mb</code>' refers to 'margin-bottom'</li>
+                                        <li>'<code>mt</code>' refers to 'margin-top'</li>
+                                        <li>'<code>ml</code>' refers to 'margin-left'</li>
+                                        <li>'<code>mr</code>' refers to 'margin-right'</li>
+                                    </ul>
+                                    <p>For padding we have used 'pb' instead of 'mb' where 'pb' refers to 'padding-bottom'.</p>
+                                    <ul class="list">
+                                        <li>'<code>pb</code>' refers to 'padding-bottom'</li>
+                                        <li>'<code>pt</code>' refers to 'padding-top'</li>
+                                        <li>'<code>pl</code>' refers to 'padding-left'</li>
+                                        <li>'<code>pr</code>' refers to 'padding-right'</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Sliders -->
+                            <div class="col-lg-12 doc-box" id="sliders">
+                                <h3>Sliders</h3>
+                                <div class="doc-box-text">
+                                    <p>WunderApp uses the amazing Owl Carousel to handle all slider behaviour including image sliders and hero sliders.
+                                    <br>All sliders are mobile touch friendly and have navigation arrows for desktop mode.</p>
+                                    <pre>
+    &lt;div class="carousel owl-carousel owl-theme"&gt;
+        &lt;div&gt;&lt;img src="image-link" class="img-responsive" alt="#"&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;img src="image-link" class="img-responsive" alt="#"&gt;&lt;/div&gt;
+            ...
+    &lt;/div&gt;
+            				        </pre>
+                                </div>
+                            </div>
+
+                            <!-- Backgrounds -->
+                            <div class="col-lg-12 doc-box" id="backgrounds">
+                                <h3>Backgrounds</h3>
+                                <div class="doc-box-text">
+                                    <p>Many sections have images that cover the background and these backgrounds can be parallax or static.<br>
+                                    Background images are linked through html img tag.</p>
+                                    <p>For static background images use following code:</p>
+                                    <pre>
+    &lt;section class="">
+        &lt;div class="background-image">
+            &lt;img src="img/backgrounds/bg-1.jpg" alt="#">
+        &lt;/div>
+
+        ...
+            				        </pre>
+                                    <p>to make it parallax, simply add class <code>parallax</code></p>
+                                     <pre>
+    &lt;section class="parallax" data-overlay-dark="8">
+        &lt;div class="background-image">
+            &lt;img src="img/backgrounds/bg-1.jpg" alt="#">
+        &lt;/div>
+
+        ...
+            				        </pre>
+                                </div>
+                            </div>
+
+                            <!-- Icon Fonts -->
+                            <div class="col-lg-12 doc-box" id="icons">
+                                <h3>Icon Fonts</h3>
+                                <div class="doc-box-text">
+                                    <p>WunderApp uses 2 sets of amazing icon fonts: <a href="http://ionicons.com/">Ion Icons</a>, and <span class="color">Et Line Icons</span>.<br>
+                                    Using the icons requires you to follow simple syntax using the predefined icon codes:</p>
+                                    <pre>
+    &lt;i class="ion-heart"&gt; </pre>
+                                    <p>For a list of all available icon codes see page below:</p>
+                                    <ul class="list">
+                                        <li><code>/elements.html  #elements-icons</code></li>
+                                    </ul>
+
+                                    <p>By default, the icon will appear at very small size. You can adjust this by adding some size classes:</p>
+                                    <ul class="list">
+                                        <li><code>size-1x</code></li>
+                                        <li><code>size-2x</code></li>
+                                        <li><code>size-3x</code></li>
+                                        <li><code>size-4x</code></li>
+                                        <li><code>size-5x</code></li>
+                                        <li><code>size-6x</code></li>
+                                        <li><code>size-7x</code></li>
+                                        <li><code>size-8x</code></li>
+                                    </ul>
+                                    <pre>
+    &lt;i class="ion-heart size-4x"&gt; </pre>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio -->
+                            <div class="col-lg-12 doc-box" id="portfolio">
+                                <h3>Portfolio</h3>
+                                <div class="doc-box-text">
+                                    <p>WunderApp provides a very elegant way to showcase your work with filter category options.</p>
+                                    <p>Portfolio filters setup:</p>
+                                    <pre>
+    &lt;ul class="vossen-portfolio-filters" data-initial-filter="*">
+        &lt;li data-filter="*">Show All&lt;/li>
+        &lt;li data-filter="Branding">Branding&lt;/li>
+        &lt;li data-filter="Digital">Digital&lt;/li>
+        &lt;li data-filter="Print">Print&lt;/li>
+    &lt;/ul></pre>
+                                    <p>Portfolio items setup:</p>
+                                    <pre>
+     &lt;div class="vossen-portfolio">
+
+         &lt;div class="col-md-4 col-sm-6" data-filter="Branding">
+             &lt;a href="project-slides.html">
+                 &lt;div class="portfolio-item">
+                     &lt;div class="item-caption">
+                         &lt;h4>WunderApp&lt;/h4>
+                         &lt;p>Branding&lt;/p>
+                     &lt;/div>
+                     &lt;div class="item-image">
+                         &lt;img alt="#" src="img/portfolio/1.jpg" />
+                     &lt;/div>
+                 &lt;/div>
+             &lt;/a>
+         &lt;/div>
+
+     &lt;/div></pre>
+                                </div>
+                            </div>
+
+                            <!-- Color Scheme -->
+                            <div class="col-lg-12 doc-box" id="colors">
+                                <h3>Color Scheme</h3>
+                                <div class="doc-box-text">
+                                    WunderApp comes with premade color schemes they are located in <code>css/colors/</code> folder. To use one of them, follow steps below.
+                                    <p>You can change your website's color scheme in an instant:</p>
+                                    <p>Open your html file and in the head tag you'll find purple.css stylesheet linked:</p>
+                                    <pre>
+&lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="utf-8"&gt;
+            &lt;title>WunderApp Multipurpose Template&lt;/title&gt;
+            &lt;link rel="icon" href="img/assets/favicon.png" type="image/png"&gt;
+                ...
+            <code>&lt;link href="<span class="highlight">css/colors/purple.css</span>" id="color-scheme" rel="stylesheet" type="text/css"&gt;</code>
+        &lt;/head&gt;</pre>
+                                    <p>Simply change purple.css link to any of the 10 premade color schemes:</p>
+                                    <pre>&lt;link href="<span class="highlight">css/colors/red.css</span>" id="color-scheme" rel="stylesheet" type="text/css"&gt;</pre>
+                                </div>
+                            </div>
+
+                            <!-- Changing Fonts -->
+                            <div class="col-lg-12 doc-box" id="fonts">
+                                <h3>Changing Fonts</h3>
+                                <div class="doc-box-text">
+
+                                    <p>WunderApp use 3 Fonts namely: Raleway, Montserrat & Hind from the <a href="https://www.google.com/fonts">Google Fonts Library</a>. You can find the linking to the font files in the head tag of all the .html files.</p>
+                                    <pre>
+&lt;http://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:400,100,200,300%7CHind:400,300</pre>
+                                    <p>In order to add or change the fonts, you will need to add new google font link or replace the above link with your new google font. After that in <code>css/theme.css</code> file you can change all the font-family: names with your new font name.</p>
+                                </div>
+                            </div>
+
+                            <!-- Google Map -->
+                            <div class="col-lg-12 doc-box" id="google-map">
+                                <h3>Map</h3>
+                                <div class="doc-box-text">
+                                    <p>On <a href="https://www.mapquest.com/" target="_blank">the MapQuest.com</a>, you can now easily create HTML code to embed a map or route into your own website!</p>
+<p>Once you've created a map or route that you want to embed in your site, follow these steps:</p>
+<ol>
+<li>In the map tools area, click the&nbsp;<strong>Share</strong> icon (next to the zoom icons)<br><img src="assets/share-map.png" alt=""></li>
+<li>Click the green&nbsp;<strong>Embed</strong> button in the&nbsp;<strong>Share</strong> pop-up<br><img src="assets/embed-1.png" alt=""></li>
+<li>In the Embed Options panel, choose your desired pixel width and height, zoom level, and default view (Map or Satellite), then click the&nbsp;<strong>Update Preview and HTML&nbsp;</strong>button to update the map and the HTML code</li>
+</ol>
+<p>After you've customized the Preview map to your liking, copy and paste the HTML code into your own website! It's that simple!</p>
+                                     
+                                </div>
+                            </div>
+
+                            <!-- Mailchimp -->
+                            <div class="col-lg-12 doc-box" id="mailchimp">
+                                <h3>Mailchimp</h3>
+                                <div class="doc-box-text">
+                                    <p>The subscription form is integrated with <a href="http://mailchimp.com/">Mailchimp</a> mailing list. You need to have an active Mailchimp account and to create a list.</p>
+                                    <p>Once you have the Mailchimp account and list you have to configure the subscription file with your API Key & List ID. In <code>php</code> folder open the <code>subscribe-mailchimp.php</code> file and and change the variables:</p>
+                                    <pre><code><span style="color:#999;">// Authentication</span>
+<span>$api_key    = '<span class="code-highlight">your-api-key</span>';</span>
+<span>$list_id    = '<span class="code-highlight">your-list-id</span>';</span></code></pre>
+
+                                    <p>
+                                    <strong style="color:#111;">
+                                    - How to find or generate your API Key * <a href="http://kb.mailchimp.com/accounts/management/about-api-keys#Find-or-Generate-Your-API-Key"><i>http://kb.mailchimp.com/accounts/management/about-api-keys</i></a>    <br>
+
+                                    - How to find your List ID * <a href="http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id#Finding-the-List-ID-on-the-list"><i>http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id</i></a>    <br>
+                                    </strong>
+                                </p>
+                                    <p class="color">Notice: php files can only work on your server so upload the site to your server when testing.</p>
+
+
+                                </div>
+                            </div>
+
+                            <!-- Contact Form -->
+                            <div class="col-lg-12 doc-box" id="contact-form">
+                                <h3>Contact Form</h3>
+                                <div class="doc-box-text">
+                                    <p>Contact form is fully setup and only thing to make it functional is to put in your email address.<br>
+                                    Inside <code>php</code> folder open <code>contact-form.php</code> file and change the email address on line 6:</p>
+
+                                    <p class="color">Notice: php files can only work on your server so upload the site to your server when testing.</p>
+
+                                    <pre><span style="color:#999;">6</span> <span>$address = "</span><span class="color">youremail@domain.com</span><span>";</pre>
+
+                                </div>
+                            </div>
+
+                            <!-- Twitter Feed -->
+                            <div class="col-lg-12 doc-box" id="tw-feed">
+                                <h3>Twitter Feed</h3>
+                                <div class="doc-box-text">
+                                    <p>To show your twitter feed you need to replace twitter widget ID in html files with your own:</p>
+                                    <ul class="list">
+                                        <li>- First go to www.twitter.com and sign in as normal, then go to your settings page.</li>
+                                        <li>- Go to "Widgets" on the left hand side.</li>
+                                        <li>- Create a new widget for what you need eg "user time line" or "search" etc.</li>
+                                        <li>- Now go back to settings page, and then go back to widgets page and you should see the widget you just created.</li>
+                                        <li>- Click edit.</li>
+                                        <li>- Look at the URL in your web browser, you will see a long number like this: 345735908357048478</li>
+                                        <li>- Use this as your ID below instead!</li>
+                                    </ul>
+                                    <pre>&lt;div data-twitter-widget-id="<span class="color">455427632419442688</span>" ... &lt;div&gt;</pre>
+
+                                </div>
+                            </div>
+
+                            <!-- Images  -->
+                            <div class="col-lg-12 doc-box" id="images">
+                                <h3>Images from the demo</h3>
+                                <div class="doc-box-text">
+                                    <p>Download from: <a href="https://www.dropbox.com/s/qcnxmww8inml0d1/WonderApp%20Images.zip?dl=0" target="_blank">Dropbox</a></p>
+
+                                </div>
+                            </div>
+
+                            <!-- Changelog -->
+                            <div class="col-lg-12 doc-box" id="changelog">
+                                <h3>Changelog</h3>
+                                <div class="doc-box-text">
+                                    <hr>
+                                    <h4><strong>WunderApp v1.0</strong></h4>
+                                    <p style="font-size:12px;">Released on <strong>October 5, 2016</strong></p>
+
+                                </div>
+                            </div>
+
+                        </div><!-- End content-wrapper -->
+
+                </div>
+            </div>
+
+
+        </div><!-- Site Wrapper -->
+
+        <!-- Scripts -->
+        <script src="assets/jquery.js"></script>
+
+    </body>
+</html>
