@@ -1786,6 +1786,7 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
 }
 .portfolio-item .item-image:after {
     content: '';
+    border-radius: 25px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1800,12 +1801,16 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
 }
 .portfolio-item:hover .item-image:after {
     opacity: .8;
+    border-radius: 25px;
+
 }
 @media all and (max-width: 990px) {
     .portfolio-item .item-image:after,
     .portfolio-item:hover .item-image:after {
         background: linear-gradient(rgba(0, 0, 0, 0) 0%, #191a1c 100%);
         opacity: 1;
+        border-radius: 25px !important;
+
     }
 }
 .portfolio-wide [data-gap="0"] { padding: 0 }
@@ -3906,12 +3911,12 @@ nav.navbar.nav-small {
         border-left: 1px solid rgba(255,255,255,0.06);
     }
     /*--- Animation ---*/
-    /* nav.navbar.nav-up {
+    nav.navbar.nav-up {
         transform: translateY(-69px);
     }
     nav.navbar.nav-down {
         transform: translateY(0);
-    } */
+    }
 }
 /* Header Collapsed */
 @media (max-width: 991px) {
