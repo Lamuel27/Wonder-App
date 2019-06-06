@@ -3466,6 +3466,7 @@ nav a {cursor: pointer}
         -o-transition: max-height 0.4s, opacity 0.3s;
         -ms-transition: max-height 0.4s, opacity 0.3s;
         transition: max-height 0.4s, opacity 0.3s;
+        margin-top: 24px;
     }
     .nav>li>a {
         display: inline-block;
