@@ -3254,7 +3254,7 @@ input.submit:hover {
     width: auto !important
 }
 .app-carousel .owl-height {
-    height: 100% !important;
+    height: 50% !important;
 }
 .screenshot-slider {
     padding: 0 10px;
