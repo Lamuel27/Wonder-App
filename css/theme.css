@@ -2103,7 +2103,7 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
     height: 100px;
     top: 0;
     left: 0;
-    opacity: .2;
+    opacity: 1;
     border-radius: 100px;
     z-index: -1;
     transition: opacity .3s, background-color .3s;
@@ -2114,7 +2114,7 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
     opacity: 1;
 }
 .connected-icons li a:hover i:after {
-    opacity: .9;
+    opacity: 1;
 }
 .phone-number {
     display: inline-block;
