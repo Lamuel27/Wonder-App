@@ -3,7 +3,7 @@
 if(!$_POST) exit;
 
 // Email address that messages will be sent to;
-$address = "vossendesign@gmail.com";
+$address = "srehlinger@clickswitch.com";
 
 // Email address verification, do not edit.
 function isEmail($email) {
