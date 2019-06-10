@@ -277,7 +277,8 @@
             autoplayTimeout: autoplaySpeed,
             loop: true,
             dots: false,
-            nav: false,
+            nav: true,
+            navText: ['<i class="icon-arrows-left"></i>','<i class="icon-arrows-right"></i>'],
             responsiveRefreshRate: 200,
             responsive: {
                 0: {
