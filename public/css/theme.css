@@ -812,6 +812,14 @@ img {
     color: #fff;
     border: none;
 }
+
+.btn-primary:hover {
+    color: #fe5000;
+    border: 2px solid !important;
+    border-color: #fe5000 !important;
+    background-color: transparent !important;
+}
+
 .btn-ghost:hover {
     color: #fff;
 }
@@ -2844,7 +2852,7 @@ input.submit:hover {
 }
 .blog-grid-content {
     position: relative;
-    background-color: #fff;
+    background-color: transparent;
     padding: 20px 10px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -3012,6 +3020,13 @@ input.submit:hover {
 .blog-pagination li a i {
     font-size: 16px;
 }
+
+.blog-grid-img:hover {
+    -ms-transform: scale(1.1) !important; 
+    -webkit-transform: scale(1.1) !important; 
+    transform: scale(1.1) !important;
+}
+
 .blog-pagination li a:hover {
     color: #bbb;
     background-color: transparent;
@@ -4848,7 +4863,11 @@ ul {
   visibility: hidden;
 }
 
-
+.teammate {
+    /* border-radius: 50%; */
+    width: 225px;
+    height: 200px;
+}
 
 .owl-item .reveal {
     opacity: 0;
