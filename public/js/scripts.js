@@ -296,7 +296,7 @@
     
     function contactForm() {
         $('#contactform').submit(function () {
-            var action = 'php/contact-form.php';
+            var action = '/public/php/contact-form.php';
             $("#message-info").slideUp(250, function () {
                 $('#message-info').hide();
                 $('#submit')
