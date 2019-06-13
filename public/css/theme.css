@@ -2812,14 +2812,23 @@ input.submit:hover {
 /* Blog Grid */
 .blog-grid {
     position: relative;
+    display: grid;
     width: 100%;
     float: left;
     padding: 0;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin: 0 auto;
+    max-width: 1300px; */
 }
 .vossen-blog-grid > div {
     padding: 0 10px;
     opacity: 0;
-
+    
     transition: opacity .5s, padding-top .5s;
     -moz-transition: opacity .5s, padding-top .5s;
     -webkit-transition: opacity .5s, padding-top .5s;
@@ -4867,6 +4876,7 @@ ul {
     /* border-radius: 50%; */
     width: 225px;
     height: 215px;
+    
 }
 
 .owl-item .reveal {
