@@ -1,0 +1,77 @@
+.ion-social-facebook:hover {
+    -ms-transform: scale(1.1) !important; 
+    -webkit-transform: scale(1.1) !important; 
+    transform: scale(1.1) !important;
+}
+.ion-social-twitter:hover {
+    -ms-transform: scale(1.1) !important; 
+    -webkit-transform: scale(1.1) !important; 
+    transform: scale(1.1) !important;
+}
+.ion-social-linkedin:hover {
+    -ms-transform: scale(1.1) !important; 
+    -webkit-transform: scale(1.1) !important; 
+    transform: scale(1.1) !important;
+}
+.ion-social-youtube:hover {
+    -ms-transform: scale(1.1) !important; 
+    -webkit-transform: scale(1.1) !important; 
+    transform: scale(1.1) !important;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+  }
+  
+  .flip-card-front {
+    background-color: #f5f5f5;
+    color: black;
+    z-index: 2;
+    border-radius: 10px;
+    padding: 25px
+
+  }
+  
+  .flip-card-back {
+    background-color: #f5f5f5;
+    color: black;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    z-index: 1;
+    padding: 25px;
+
+  }
+  .grid-container {
+    display: grid;
+    grid: 335px / auto auto auto auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+    align-content: space-around;
+    justify-content: space-between
+  }
