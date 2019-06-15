@@ -4879,6 +4879,13 @@ ul {
     
 }
 
+.teammate2 {
+    /* border-radius: 50%; */
+    width: 185px;
+    height: 165px;
+    
+}
+
 .owl-item .reveal {
     opacity: 0;
     -webkit-transform: translateY(50%);
