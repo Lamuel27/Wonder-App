@@ -293,7 +293,8 @@
             }
         });
     }
-    
+
+
     function contactForm() {
         $('#contactform').submit(function () {
             var action = '../php/contact-form.php';
