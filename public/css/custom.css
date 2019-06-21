@@ -21,11 +21,24 @@
 
 .flip-card {
     background-color: transparent;
-    width: 350px;
+    width: 280px;
     height: 350px;
     perspective: 1000px;
   }
   
+  .card {
+    background-color: transparent;
+    width: 280px;
+    height: 350px;
+    perspective: 1000px;
+  }
+
+  .card:hover .flip-card-inner h1 {
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
   .flip-card-inner {
     position: relative;
     width: 100%;
