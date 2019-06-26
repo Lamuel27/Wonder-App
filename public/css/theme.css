@@ -301,7 +301,7 @@ a:active {
 ///////////////////////////////////////*/
 .hero-fullscreen {
     position: relative;
-    height: 100vh;
+    height: 70vh;
     padding: 114px 0;
     overflow: hidden;
 }
@@ -4656,7 +4656,7 @@ ul {
 .p110{padding:110px}
 .p120{padding:120px}
 /* Margin Auto */
-.mr-auto{margin: auto;float: none}
+.mr-auto{margin: auto;float: none; margin-right: 10%;}
 /* Margin Top */
 .mt0{margin-top:0}
 .mt5{margin-top:5px}
@@ -4727,7 +4727,7 @@ ul {
 .mr130{margin-right:130px}
 .mr140{margin-right:140px}
 .inline-block { display: inline-block }
-.img-responsive{max-width: 100%;}
+.img-responsive{max-width: 200%;}
 .width100{width: 100%;}
 
 
