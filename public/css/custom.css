@@ -96,3 +96,8 @@
     align-content: space-around;
     justify-content: space-between
   }
+
+  big {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+  }
