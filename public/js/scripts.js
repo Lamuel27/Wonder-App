@@ -658,6 +658,8 @@
         lightbox();
     });
     
+    
+    
     $(window).load(function () {
         twitterFeedSliderInit();
     });
