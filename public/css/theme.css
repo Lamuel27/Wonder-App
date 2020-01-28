@@ -1579,6 +1579,33 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
     color: #232323;
 }
 
+.counter2 {
+    text-align: center;
+    margin: 40px 0;
+}
+.counter2 h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    font-feature-settings: 'lnum';
+    -moz-font-feature-settings: 'lnum=1';
+    -ms-font-feature-settings: 'lnum';
+    -webkit-font-feature-settings: 'lnum';
+    -o-font-feature-settings: 'lnum';
+}
+.counter2 h6 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: #fff;
+    opacity: .7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+[data-overlay-light] .counter2 h6 {
+    color: #232323;
+}
+
 /*////////////////////////////////////////
 // Quote Slider
 ///////////////////////////////////////*/

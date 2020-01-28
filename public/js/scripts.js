@@ -504,6 +504,28 @@
             });
         }, { offset: '100%', triggerOnce: true });
     }
+
+    function countUp2() {
+        $('#fun-facts').waypoint(function () {
+            $('.counter2 h1').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+                $({ countNum: $this.text()}).animate({
+                    countNum: countTo
+                }, {
+                    duration: 1700,
+                    easing:'linear',
+                    step: function() {
+                      $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                      $this.text(this.countNum).append("+")
+                      //alert('finished');
+                    }
+                });  
+            });
+        }, { offset: '100%', triggerOnce: true });
+    }
     
     function countdown() {
         var dateUser = $("#countdown-timer").attr('data-date'),
@@ -673,6 +695,7 @@
         twitterFeedSlider();
         twitterFeedList();
         countdown();
+        countUp2();
         vossenBlogGrid();
         lightbox();
         share();
